@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('./app/assets/styles/reset.scss');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+  }
+
+.line {
+  margin-top: 24px;
+    margin-bottom: 32px;
+  
+    border-bottom: 1px solid #e2e8f0;
+}
