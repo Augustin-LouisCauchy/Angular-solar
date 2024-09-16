@@ -7,8 +7,10 @@
     font-family: 'Inter', sans-serif;
 	&--title {
 		margin-right: 24px;
+		margin-bottom: 0;
 		font-size: 30px;
 		font-weight: 700;
+		box-shadow: none;
 		color: #1e293b;
 	}
 	&--choose--btn {

@@ -1,1 +1,15 @@
-<p>login works!</p>
+<h2 mat-dialog-title>Авторизация</h2>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  <mat-form-field appearance="fill">
+    <mat-label>Номер телефона</mat-label>
+    <input matInput formControlName="phone" required>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Пароль</mat-label>
+    <input matInput type="password" formControlName="password" required>
+  </mat-form-field>
+  <div mat-dialog-actions>
+    <button mat-button mat-dialog-close>Отмена</button>
+    <button mat-button type="submit">Войти</button>
+  </div>
+</form>
