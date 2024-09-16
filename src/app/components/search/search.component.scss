@@ -32,9 +32,10 @@
         }
 	}
     &--list {
-        position: absolute;
+		position: absolute;
         top: 17vh;
         overflow: hidden;
+		background-color: white;
     }
     &--list--item {
         display: flex;
