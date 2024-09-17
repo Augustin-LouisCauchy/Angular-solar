@@ -13,7 +13,7 @@ import {
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
-import { NgIf } from '@angular/common';
+
 
 @Component({
   selector: 'app-login',
@@ -23,6 +23,7 @@ import { NgIf } from '@angular/common';
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
+    MatDialogModule,
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss',
